@@ -101,14 +101,18 @@ text-align: center; }
 .para_7,.para_8
 {
    border:1px solid darkblue;
-   border-radius: 10px;
+   border-radius: 5px;
    padding: 5px;
    line-height: 30px;
    margin-bottom:5px;
    cursor:pointer;
-   text-align: center;
+   text-align: left;
 }
 
+.para_7 input[type='radio'],.para_8 input[type='radio']
+{
+   margin-right: 10px;
+}
 
 .para_9
 {
@@ -133,7 +137,7 @@ text-align: center; }
 .para_1
 {
    border:2px solid red;
-   width:500px;
+   width:490px;
    height:450px;
    padding:20px;
    background-color: #ffff;
@@ -143,7 +147,7 @@ text-align: center; }
 {
    background-color: #133040;
    color:white;
-   width:500px;
+   width:490px;
    height:450px;
    border-radius: 10px;
    padding:20px;
@@ -180,4 +184,9 @@ text-align: center; }
    padding:5px;
    padding-left:20px;
 
+}
+
+.repay
+{
+   text-align:center;
 }
