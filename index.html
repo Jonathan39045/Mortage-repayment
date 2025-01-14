@@ -4,56 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Mortgage repayment calculator</title>
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+<title>Frontend Mentor | Mortgage repayment calculator</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
-  <link rel="stylesheet" href ="index.css">
+<link rel="stylesheet" href="index.css">
   <script defer src="script.js"></script>
 </head>
 <body>
 
-  <figcaption class="main">   
+  <div class="main">
     <div class="para_1">
       <div class="title">
         <p class="heading">Mortgage Calculator</p>
         <p class="clear">Clear All</p>
       </div>
-     
       <p class="m"> Mortgage Amount</p>
-      <figcaption>
+      <div>
         <input type="text" class="calc">
         <span class="british-pound-symbol"></span>
-      </figcaption>
-     
-
+      </div>
       <div class="para_3">
+        <div class="para_4">
 
-        <figcaption class="para_4">
-
-          <p class="text" class="term"> Mortgage Term </p>
-          <figcaption class="para_4_5">
+          <p  class="term"> Mortgage Term </p>
+          <div class="para_4_5">
             <input type="text" class="text_1">
             <span class="suffix">years</span>
-          </figcaption>
-          
-        </figcaption>
+          </div>
+        </div>
 
-      <figcaption class="para_5">
-        <p class="text" class="interest">Interest Rate</p>
-        <figcaption class="para_4_5">
+      <div class="para_5">
+        <p class="interest">Interest Rate</p>
+        <div class="para_4_5">
           <input type="text" class="text_1">
           <span class="suffix">%</span>
-        </figcaption>
-        
-      </figcaption>
+        </div>
+      </div>
 
       </div>
-     
-      <figcaption class="para_6">
-        <p class="type" class="type">Mortgage Type</p>
+      <div class="para_6">
+        <p class="type">Mortgage Type</p>
 
         <div class="para_7">
           <input type="radio" class="r" name="type" >Repayment
@@ -62,31 +54,25 @@
         <div class="para_8">
           <input type="radio" class="r" name="type">Interest Only
         </div>
-        
-      </figcaption>
+      </div>
 
-      <figcaption class="para_9">
-        <img src="./assets/images/icon-calculator.svg" class="calculator">
-        <button class="button">Calculate Repayments</button>
-      </figcaption>
-
+      <div class="para_9">
+        <img alt="calculator-icon" src="./assets/images/icon-calculator.svg" class="calculator">
+        <button type="button" class="button">Calculate Repayments</button>
+      </div>
     </div>
-  
   <!-- Empty results start -->
     <div class="para_2">
 
-      <figcaption>
-        <img src="./assets/images/illustration-empty.svg" class="ill">
-      </figcaption>
+      <div>
+        <img alt="illustration-empty" src="./assets/images/illustration-empty.svg" class="ill">
+      </div>
 
 
      <h4 class="heading_2"> Results shown here</h4>
 
       <p class="repay"> Complete the form and click “calculate repayments” to see what 
         your monthly repayments would be.</p>
-        
-  
-    
       <!-- Your results
     
       Your results are shown below based on the information you provided. 
@@ -97,13 +83,11 @@
       Total you'll repay over the term -->
 
     </div>
- 
-</figcaption>
+</div>
   <!-- Completed results end -->
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Ajith177" target = "_blank">Ajetganapathy</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>
+    Coded by <a href="https://github.com/Ajith177" target="_blank">Ajetganapathy</a>.
   </div>
 </body>
 </html>
